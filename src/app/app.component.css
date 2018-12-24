@@ -1,0 +1,187 @@
+.header {
+  color: #202020;
+  font-size: 150%;
+  text-align: center;
+  heigth: 1000px;
+  clear: both;
+}
+
+.Menu {
+  position: relative;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  width: 700px;
+  padding: 0;
+}
+.Menu a {
+  height: 45px;
+  width: 140px;
+  display: block;
+  text-decoration: none;
+  color: #606060;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+.Menu a:hover {
+  color: black;
+}
+
+.Menu p {
+  height: 45px;
+  width: 140px;
+  display: block;
+  text-decoration: none;
+  color: #606060;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+.Menu p:hover {
+  color: black;
+}
+
+.Menu li {
+  float: Left;
+  list-style-type: none;
+}
+.Menu ul {
+  display: none;
+}
+.active_red {
+  height: 5px;
+  width: 138px;
+  background-color: #ff0066;
+}
+.active_green {
+  height: 5px;
+  width: 138px;
+  background-color: #7fff00;
+}
+.active_blue {
+  height: 5px;
+  width: 138px;
+  background-color: #33ccff;
+}
+.active_purple {
+  height: 5px;
+  width: 138px;
+  background-color: purple;
+}
+.active_yellow {
+  height: 5px;
+  width: 138px;
+  background-color: yellow;
+}
+.Menu a:hover .hover_red {
+  height: 5px;
+  width: 138px;
+  background-color: #ff0066;
+}
+.Menu a:hover .hover_green {
+  height: 5px;
+  width: 138px;
+  background-color: #7fff00;
+}
+.Menu a:hover .hover_yellow {
+  height: 5px;
+  width: 138px;
+  background-color: yellow;
+}
+.Menu a:hover .hover_blue {
+  height: 5px;
+  width: 138px;
+  background-color: #33ccff;
+}
+.Menu a:hover .hover_purple {
+  height: 5px;
+  width: 138px;
+  background-color: purple;
+}
+.Menu p:hover .hover_red {
+  height: 5px;
+  width: 138px;
+  background-color: #ff0066;
+}
+.Menu p:hover .hover_green {
+  height: 5px;
+  width: 138px;
+  background-color: #7fff00;
+}
+.Menu p:hover .hover_yellow {
+  height: 5px;
+  width: 138px;
+  background-color: yellow;
+}
+.Menu p:hover .hover_blue {
+  height: 5px;
+  width: 138px;
+  background-color: #33ccff;
+}
+.Menu p:hover .hover_purple {
+  height: 5px;
+  width: 138px;
+  background-color: purple;
+}
+
+.SN {
+  display: none;
+}
+
+.body {
+  width: 100%;
+  /* display: flex; */
+  /* align-items: flex-start; */
+  margin: 0;
+}
+
+.graph {
+  width: 80%;
+  /* width: 100%; */
+  /* flex: 1; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  /* margin-right: 2000px; */
+  height: 600px;
+  /* display: block; */
+  /* border: solid black; */
+  float: left;
+  margin: 0;
+}
+
+.temperatures {
+  width: 20%;
+  margin: 0;
+  /* flex: 1; */
+  /* flex-basis: 200px; */
+  /* flex-shrink: 0; */
+  float: left;
+  /* padding: 10px; */
+  /* padding: 0; */
+}
+
+.temp_item {
+  margin: 0;
+  padding: 0px 10px;
+}
+
+.temp_item p {
+  margin: 0;
+  padding: 0;
+}
+
+.tip {
+  background-color: lightgray;
+  border: solid 1px gray;
+  /* width: 100px; */
+  /* height: 30px; */
+  position: absolute;
+  margin: 0;
+}
+
+.tip p {
+  /* margin: 0; */
+  margin: 5px 10px;
+}

@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="header">
+
+                <a href="#maincontent" class="SN">Skip navigation</a>
+                <ul class="Menu">
+                        <li><a href="#">Timme<div class="active_red"></div></a></li>
+                        <li><a href="Day.html">Dag<div class="hover_blue"></div></a></li>
+                        <li><a href="Week.html">Vecka<div class="hover_yellow"></div></a></li>
+                        <li><a href="Givare.php">Givare<div class="hover_purple"></div></a></li>
+			<li><a href="Names.php">Redigera<div class="hover_green"></div></a></li>
+                 </ul>
+
+        </div>
+
+<div class="tip" [style.left]="tipLeft" [style.top]="tipTop">
+  <p>
+    {{tipTemp}}&deg; : {{tipName}}
+  </p>
+</div>
+  <!-- <canvas (window:resize)="resize($event)" (document:mousemove)="mouseMove($event)" id="chart"></canvas> -->
+
+<div class="body">
+<!-- <div class="graph">sadf;ladsf;masdl fkmaslkdmlkasdkfmaslmflas mdflamdsfladmsflmasdlkfmalsdfma kdsmflasmdflasdmfklmasf</div> -->
+  <canvas (window:resize)="resize($event)" (document:mousemove)="mouseMove($event)" id="chart" class="graph"></canvas>
+  <div class="temperatures">
+    <div class="temp_item" *ngFor="let name of data[0]; let i = index">
+      <p *ngIf="i != 0">{{data[data.length-1][i]}}&deg; : {{name}}</p>
+    </div>
+  </div>
+</div>
